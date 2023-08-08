@@ -1,0 +1,40 @@
+/* styles for the container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* styles for the forms */
+form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 10px auto;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  font-size: 16px;
+  cursor: pointer;
+}
