@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neocities App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Neocities App</h1>
+    <form>
+      <div class="form-group">
+        <label for="upload-file">Choose a file to upload:</label>
+        <input type="file" id="upload-file" name="upload-file">
+      </div>
+      <button type="button" id="upload-btn">Upload</button>
+    </form>
+    <form>
+      <div class="form-group">
+        <label for="download-file">File name:</label>
+        <input type="text" id="download-file" name="download-file">
+      </div>
+      <button type="button" id="download-btn">Download</button>
+    </form>
+    <form>
+      <div class="form-group">
+        <label for="update-file">File name:</label>
+        <input type="text" id="update-file" name="update-file">
+      </div>
+      <div class="form-group">
+        <label for="new-file">New file (optional):</label>
+        <input type="file" id="new-file" name="new-file">
+      </div>
+      <div class="form-group">
+        <label for="new-file-name">New file name (optional):</label>
+        <input type="text" id="new-file-name" name="new-file-name">
+      </div>
+      <button type="button" id="update-btn">Update</button>
+    </form>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
